@@ -10,7 +10,7 @@ Here's presenting .... A machine learning model that predicts market debut price
 
 ![App Screenshot](/screenshots/interface.jpg) 
 
-## Problem Statement
+## 📝 Problem Statement
 Most tech companies face a plethora of decisions to be made to optimize their products and keep their brands relevent in the evergrowing and competitive market for tech. New-age laptops are one such important decision, wherein companies are unable to predict what specifications are profitable to beat out competition, which means finding the fine line between investment into more optimized specifications and fulfilling consumer buy-in. This app helps make these decisions by tracking projected market starter prices to predict what products are required by the company to invest in.
 
 ## ✨ Features

@@ -4,7 +4,7 @@
 [![Framework](https://img.shields.io/badge/Framework-Flask-red)](https://flask.palletsprojects.com/)
 [![Deployment](https://img.shields.io/badge/Deployment-AWS-purple)](https://aws.amazon.com/)
 
-A machine learning model that predicts laptop prices based on specifications, with a web interface for real-time predictions.
+Here's presenting .... A machine learning model that predicts market debut prices of new-age laptops based on specifications, with a web interface for real-time predictions. 
 
 👉 **Live Demo:** [http://ec2-3-93-145-120.compute-1.amazonaws.com/](http://ec2-3-93-145-120.compute-1.amazonaws.com/)
 

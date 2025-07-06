@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laptop Price Prediction</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="img"></div>
+    <form class="form">
+        <h2>Screen Size(Inches)</h2>
+        <input class="length" type="email" id="uiscreen" class="floatLabel" name="Screen_Size" value="10">
+        <h2>Ram(GB)</h2>
+        <div class="switch-field">
+            <input type="radio" id="radio-ram-4" name="uiram" value="4">
+            <label for="radio-ram-4">4 GB</label>
+            <input type="radio" id="radio-ram-8" name="uiram" value="8">
+            <label for="radio-ram-8">8 GB</label>
+            <input type="radio" id="radio-ram-16" name="uiram" value="16">
+            <label for="radio-ram-16">16 GB</label>
+            <input type="radio" id="radio-ram-32" name="uiram" value="32">
+            <label for="radio-ram-32">32 GB</label>
+            <input type="radio" id="radio-ram-64" name="uiram" value="64">
+            <label for="radio-ram-64">64 GB</label>
+        </div>
+    </form>
+    <form class="form">
+        <h2>Disk Size(GB)</h2>
+        <div class="switch-field">
+            <input type="radio" id="radio-disk-64" name="uidisk" value="64">
+            <label for="radio-disk-64">64 GB</label>
+            <input type="radio" id="radio-disk-128" name="uidisk" value="128">
+            <label for="radio-disk-128">128 GB</label>
+            <input type="radio" id="radio-disk-256" name="uidisk" value="256">
+            <label for="radio-disk-256">256 GB</label>
+            <input type="radio" id="radio-disk-512" name="uidisk" value="512">
+            <label for="radio-disk-512">512 GB</label>
+            <input type="radio" id="radio-disk-1024" name="uidisk" value="1024">
+            <label for="radio-disk-1024">1 TB</label>
+            <input type="radio" id="radio-disk-2048" name="uidisk" value="2048">
+            <label for="radio-disk-2048">2 TB</label>
+        </div>
+            <h2>Brand</h2>
+        <div>
+            <select class="brand" name="" id="uibrands">
+                <option value="" disabled="disabled" selected="selected">Choose a Brand</option>
+                <option>Asus</option>
+                <option>Acer</option>
+            </select>
+        </div>
+            <h2>CPU</h2>
+        <div>
+            <select class="cpu" name="" id="uicpus">
+                <option value="" disabled="disabled" selected="selected">Choose a CPU</option>
+                <option>I5</option>
+                <option>I7</option>
+            </select>
+        </div>
+        <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+        <div id="uiEstimatedPrice" class="result"> <h2></h2> </div>
+    </form>
+
+</body>
+</html>

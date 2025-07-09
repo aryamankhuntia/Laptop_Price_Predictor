@@ -28,4 +28,4 @@ git clone https://github.com/your-username/laptop-price-predictor.git
 pip install -r requirements.txt
 
 # Start Flask server
-python app.py
+python server.py
